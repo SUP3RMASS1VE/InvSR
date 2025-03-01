@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/zsyOAOA/InvSR app",
+          "git clone https://github.com/SUP3RMASS1VE/InvSR-Fork app",
         ]
       }
     },
@@ -28,7 +28,6 @@ module.exports = {
         venv: "env",                // Edit this to customize the venv folder path
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-          "uv pip install gradio devicetorch",
           "uv pip install https://github.com/woct0rdho/triton-windows/releases/download/v3.1.0-windows.post5/triton-3.1.0-cp310-cp310-win_amd64.whl",
           "uv pip install -U xformers==0.0.27.post2 --index-url https://download.pytorch.org/whl/cu121",
           "uv pip install -e .",
@@ -44,4 +43,3 @@ module.exports = {
     }
   ]
 }
-
